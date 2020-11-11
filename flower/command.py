@@ -11,7 +11,7 @@ from logging import NullHandler
 from tornado.options import options
 from tornado.options import parse_command_line, parse_config_file
 from tornado.log import enable_pretty_logging
-from celery.bin.base import Command
+from celery.bin.base import CeleryCommand as Command
 
 from . import __version__
 from .app import Flower
